@@ -1,10 +1,16 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'menu/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'menu/js/animation.js' %}">
+    <title>django app</title>
 </head>
 <body>
+Какашка
+{% block menu %}
 
+{% endblock menu %}
 </body>
 </html>
